@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --font-inter: var(--font-inter);
+  --font-arvo: var(--font-arvo);
+  --font-dancing: var(--font-dancing);
+  
+  --color-primary: #064e3b;
+  --color-secondary: #d4af37;
+  --color-accent: #f5f5dc;
+  --color-foreground: #0f172a;
+  --color-background: #fdfdfb;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-arvo);
+  }
+}
+
+h1, h2, h3 {
+  font-family: var(--font-dancing);
+}
+
+@keyframes float {
+  0% { transform: translateY(0px) rotate(0deg); opacity: 0; }
+  10% { opacity: 1; }
+  90% { opacity: 1; }
+  100% { transform: translateY(-100vh) rotate(360deg); opacity: 0; }
+}
+
+.petals-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.petal {
+  position: absolute;
+  bottom: -50px;
+  background-color: #ffc0cb;
+  border-radius: 150% 0 150% 0;
+  animation: float 10s linear infinite;
+  opacity: 0.5;
+}
