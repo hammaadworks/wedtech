@@ -110,6 +110,7 @@ const LandingPage = () => {
             { id: 'royal-garden', name: 'Royal Garden', color: 'bg-rose-100', desc: 'Pastel Florals, Romantic, Soft.' },
             { id: 'classic-heritage', name: 'Classic Heritage', color: 'bg-amber-50', desc: 'Rich Patterns, Serif Typography, Vintage.' },
             { id: 'heritage-demo', name: 'Heritage Demo', color: 'bg-slate-500', desc: 'Inspired by our original demo.' },
+            { id: 'cool', name: 'Cool Aesthetic', color: 'bg-emerald-500', desc: 'Modern, Interactive, High-End.' },
           ].map((t, i) => (
             <motion.div 
               key={i}
