@@ -3,7 +3,7 @@ import * as React from "react";
 import { forwardRef, useRef } from "react";
 import { useWedding } from "@/lib/context/WeddingContext";
 import { cn } from "@/lib/utils";
-import { AnimatedBeam } from "@/components/themes/cool/magicui/animated-beam";
+import { AnimatedBeam } from "@/components/templates/cool/magicui/animated-beam";
 import HeadingSparkle from "./myui/heading-sparkle";
 
 const Node = forwardRef<

@@ -1,7 +1,7 @@
 "use client";
 
 import { Home, MapPin, Calendar, Heart, MessageCircle, HelpCircle, Phone } from "lucide-react"
-import { AnimeNavBar } from "@/components/themes/cool/ui/anime-navbar"
+import { AnimeNavBar } from "@/components/templates/cool/ui/anime-navbar"
 
 const items = [
   {

@@ -1,4 +1,4 @@
-import { CircularTestimonials } from "@/components/themes/cool/ui/circular-testimonials";
+import { CircularTestimonials } from "@/components/templates/cool/ui/circular-testimonials";
 import HeadingSparkle from "./myui/heading-sparkle";
 
 const testimonials = [

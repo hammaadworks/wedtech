@@ -1,6 +1,6 @@
 // FAQ.tsx
-import { FaqAccordion } from "@/components/themes/cool/ui/faq-chat-accordion";
-import type { FAQItem } from "@/components/themes/cool/ui/faq-chat-accordion";
+import { FaqAccordion } from "@/components/templates/cool/ui/faq-chat-accordion";
+import type { FAQItem } from "@/components/templates/cool/ui/faq-chat-accordion";
 import { SparklesText } from "./magicui/sparkles-text";
 import { BorderBeam } from "./magicui/border-beam";
 import { CoolMode } from "./magicui/cool-mode";

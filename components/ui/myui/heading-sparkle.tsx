@@ -1,6 +1,6 @@
 import React from "react";
-import { CoolMode } from "@/components/themes/cool/magicui/cool-mode";
-import { SparklesText } from "@/components/themes/cool/magicui/sparkles-text";
+import { CoolMode } from "@/components/templates/cool/magicui/cool-mode";
+import { SparklesText } from "@/components/templates/cool/magicui/sparkles-text";
 
 type HeadingSparkleProps = {
   heading: string;

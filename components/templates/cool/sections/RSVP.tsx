@@ -1,7 +1,7 @@
 "use client";
 
 import { useWedding } from "@/lib/context/WeddingContext";
-import { RainbowButton } from "@/components/themes/cool/magicui/rainbow-button";
+import { RainbowButton } from "@/components/templates/cool/magicui/rainbow-button";
 import { motion } from "framer-motion";
 
 export default function RSVP() {

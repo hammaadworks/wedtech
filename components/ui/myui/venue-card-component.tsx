@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { BackgroundGradient } from "@/components/themes/cool/ui/background-gradient";
+import { BackgroundGradient } from "@/components/templates/cool/ui/background-gradient";
 import { MapPinIcon, ClockIcon, CalendarIcon } from "lucide-react";
 import { Marquee } from "../magicui/marquee";
 import { CoolMode } from "../magicui/cool-mode";

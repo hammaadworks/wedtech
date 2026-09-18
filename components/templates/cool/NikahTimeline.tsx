@@ -1,4 +1,4 @@
-import { Timeline } from "@/components/themes/cool/ui/timeline";
+import { Timeline } from "@/components/templates/cool/ui/timeline";
 import { SparklesText } from "./magicui/sparkles-text";
 import { Heading } from "lucide-react";
 import HeadingSparkle from "./myui/heading-sparkle";
